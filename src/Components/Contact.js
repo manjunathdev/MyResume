@@ -14,11 +14,14 @@ const Contact = ({ loggedIn, username }) => {
               <Card.Title>Contact</Card.Title>
               <Card.Text>
                 <p>
-                  <span class="fw-medium">Email:</span>{" "}
-                  manjunath.deva123@gmail.com
-                </p>
-                <p>
-                  <span class="fw-medium">Mobile:</span> 9743291903
+                  <span class="fw-medium">Github:</span>{" "}
+                  <a
+                    href="https://github.com/manjunathdev"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    https://github.com/manjunathdev
+                  </a>
                 </p>
               </Card.Text>
             </Card.Body>
